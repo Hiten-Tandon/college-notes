@@ -1,4 +1,4 @@
-Horizontal Asymptotes are [[Parallel Asymptotes]] or [[Asymptotes]] parallel to x-axis. 
+Horizontal Asymptotes are [[Parallel Asymptotes]]
 To find horizontal asymptotes of a curve, we have to put the coefficient the highest power of x in the equation of the curve to 0. The result equation obtained by this is the equation of the horizontal asymptote(s).
 
 For ex: Let's say we have the following equation

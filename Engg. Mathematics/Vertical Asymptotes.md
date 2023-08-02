@@ -1,4 +1,4 @@
-Vertical Asymptotes are [[Parallel Asymptotes]] or [[Asymptotes]] parallel to y-axis. 
+Vertical Asymptotes are [[Parallel Asymptotes]]
 To find vertical asymptotes of a curve, we have to put the coefficient the highest power of y in the equation of the curve to 0. The result equation obtained by this is the equation of the vertical asymptote(s).
 
 For example let's say we have an equation: 
