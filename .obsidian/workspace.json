@@ -11,7 +11,7 @@
             "id": "d3e0ef11119acfb5",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "efd140749333759d",
@@ -141,12 +140,18 @@
   },
   "active": "d3e0ef11119acfb5",
   "lastOpenFiles": [
-    "Engg. Mathematics/Asymptotes.md",
-    "Engg. Mathematics/Vertical Asymptotes.md",
-    "README.md",
+    "App. Physics/Compton effect.md",
+    "FAIDA/Introduction.md",
     "Engg. Mathematics/Horizontal Asymptotes.md",
     "Engg. Mathematics/Parallel Asymptotes.md",
+    "Engg. Mathematics/Asymptotes.md",
     "Engg. Mathematics/Oblique Asymptotes.md",
+    "Engg. Mathematics/Vertical Asymptotes.md",
+    "Untitled.md",
+    "CPLT",
+    "FAIDA",
+    "App. Physics",
+    "README.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Engg. Mathematics",
