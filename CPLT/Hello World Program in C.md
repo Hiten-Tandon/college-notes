@@ -13,7 +13,7 @@ First we have the preprocessor directive `#include`
 
 `#include` just takes a file, and copies it's contents to the top of your file.
 
-Now, this include preprocessor directive is followed by `<stdio.h>`, the <> represent that the file name inside is a file which ships with compiler, if you wanted to use your own header file, you'd put it's name in "".
+Now, this include preprocessor directive is followed by `<stdio.h>`, the \<\> represent that the file name inside is a file which ships with compiler, if you wanted to use your own header file, you'd put it's name in "".
 
 Then we don't have any function declarations, because the program doesn't use any functions other than main.
 

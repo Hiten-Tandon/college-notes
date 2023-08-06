@@ -61,4 +61,4 @@ Now this is good and all, but what does the \\n do? the \\n is an escape charact
 |\\\?|Question mark|
 |\\\\|Backslash|
 
-[[Taking Input in a C program]]
+[[Taking CLI Input in a C program]]
