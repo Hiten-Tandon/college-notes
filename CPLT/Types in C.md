@@ -189,4 +189,4 @@ A character in C takes 1 byte, and follows ASCII table (given below)
 |126|7E|~|
 |127|7F|DEL|
 
-Now a days, ASCII has been replaced with UTF-8 and in some places even UTF-16, but in C, ASCII remains to be the standard due to backward compatibility. If C were to change it now, within a day, Windows, Linux, Android e.tc. will all die with no way to restore them for months to say the least. That's how sensitive the issue is, so the C devs decided not to touch it.
+Note: Now a days, ASCII has been replaced with UTF-8 and in some places even UTF-16, but in C, ASCII remains to be the standard due to backward compatibility. If C were to change it now, within a day, Windows, Linux, Android e.tc. will all die with no way to restore them for months to say the least. That's how sensitive the issue is, so the C devs decided not to touch it.

@@ -83,3 +83,5 @@ If you're too lazy to do it yourself here is the result as a photo of my termina
 This might seem very magical at first but later down the line, when you learn DSA you'll realize that the part of it you're thinking is magical right now is the most basic part of it and the part that you're not even thinking of is the most wonderful thing (and most terrifying and ugly) about this function.
 
 With that said, it really isn't rocket science to figure out what is going on from here and how to use `scanf`. You can use the same format specifiers you did for `printf` and you can simply prefix the variables you want to give to `scanf` with an ampersand (&) or the reference of operator, to better match with the lingo.
+
+[[Conditionals in C(I)- if statements]]
