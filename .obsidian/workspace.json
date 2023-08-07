@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPLT/Loops In C(I)- While Loop.md",
+                "file": "CPLT/Loops In C(III)- For Loop.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPLT/Loops In C(I)- While Loop.md",
+                "file": "CPLT/Loops In C(III)- For Loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPLT/Loops In C(I)- While Loop.md",
+                "file": "CPLT/Loops In C(III)- For Loop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPLT/Loops In C(I)- While Loop.md"
+                "file": "CPLT/Loops In C(III)- For Loop.md"
               }
             }
           }
@@ -148,24 +148,26 @@
   },
   "active": "399d62ad4f1dd5c9",
   "lastOpenFiles": [
-    "CPLT/Conditionals in C(III)- ternary operator.md",
+    "CPLT/Loops In C(II)- Do-while Loop.md",
+    "CPLT/Loops In C(III)- For Loop.md",
     "CPLT/Loops In C(I)- While Loop.md",
-    "CPLT/Types in C.md",
+    "CPLT/Conditionals in C(III)- ternary operator.md",
     "CPLT/Conditionals in C(II)- switch statements.md",
     "CPLT/Conditionals in C(I)- if statements.md",
     "CPLT/Taking Input from CLI in a C program.md",
-    "Pasted image 20230806203722.png",
     "CPLT/Exploring printf.md",
-    "CPLT/Functions in C.md",
+    "CPLT/Hello World Program in C.md",
     "CPLT/Structure of a C Program.md",
     "CPLT/Introduction to C.md",
+    "CPLT/Functions in C.md",
+    "CPLT/Types in C.md",
+    "Pasted image 20230806203722.png",
     "Engg. Mathematics/Vertical Asymptotes.md",
     "Engg. Mathematics/Parallel Asymptotes.md",
     "Engg. Mathematics/Horizontal Asymptotes.md",
     "Engg. Mathematics/Oblique Asymptotes.md",
     "Engg. Mathematics/Asymptotes.md",
     "App. Physics/Compton effect.md",
-    "CPLT/Hello World Program in C.md",
     "Untitled.md",
     "FAIDA/Introduction.md",
     "CPLT",
@@ -179,8 +181,6 @@
     "Mathematics notes/Determinants.md",
     "Daily Notes/2023-07-31.md",
     "Daily Notes/2023-07-21.md",
-    "2023-07-21.md",
-    "Daily Notes/2023-07-20.md",
     "Daily Notes",
     "Mathematics notes",
     "wlkwfw.canvas"
