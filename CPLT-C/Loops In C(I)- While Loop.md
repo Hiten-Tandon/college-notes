@@ -26,6 +26,8 @@ int rev_num(int num) {
 }
 ```
 
+^a2cddb
+
 Let's take a mock input say `num = 52345` for the function and solve the loop by hand to get a better idea of what's happening.
 ```
 num = 52345
@@ -62,7 +64,7 @@ This is how the above program works, it's fairly simple but it tells us quite a 
 Now a question arises "When should I use while loop?" which is a genuine question to be fair. The answer is pretty simple. You use while loop under 2 conditions.
 
 1. You have to repeat a statement till the value of a variable reaches some other value, i.e. the value becomes 0 or maybe becomes less than some other variable or something like that
-2. The variable being talked about here (The loop control variable, i.e.) was declared outside the loop or, there are more than one control variables (as is the case in binary search).
+2. The variable being talked about here (The loop control variable, i.e.) was declared outside the loop or, there are more than one control variables.
 
 If these 2 conditions are satisfied, 90% of the time you should use while loop. Other 10% of the time, you have to use your developer senses to tell you what to do.
 

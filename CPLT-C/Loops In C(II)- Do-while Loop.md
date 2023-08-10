@@ -42,6 +42,8 @@ bool place_tile(int x, int y, char player) { return true; }
 char get_winner() { return 'D'; }
 ```
 
+^317180
+
 <!--Some C dev is puking right now because of how bad this code is, I for one am about to-->
 
 Now you maybe asking yourself, Why on earth do we need do-while loops? Don't while loops just do the same job? I mean I can convert this do-while to a while and the program would work just fine.

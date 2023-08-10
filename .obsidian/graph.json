@@ -1,27 +1,12 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:CPLT-C",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:(CPLT)",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:(Engg. Mathematics)",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    }
-  ],
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.8,
@@ -32,6 +17,6 @@
   "repelStrength": 12.5,
   "linkStrength": 0.666666666666667,
   "linkDistance": 358,
-  "scale": 0.45050811767578314,
+  "scale": 0.3213363860503599,
   "close": false
 }

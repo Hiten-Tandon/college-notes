@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPLT/Loops In C(III)- For Loop.md",
+                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPLT/Loops In C(III)- For Loop.md",
+                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPLT/Loops In C(III)- For Loop.md",
+                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPLT/Loops In C(III)- For Loop.md"
+                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md"
               }
             }
           }
@@ -148,20 +148,26 @@
   },
   "active": "399d62ad4f1dd5c9",
   "lastOpenFiles": [
-    "CPLT/Loops In C(II)- Do-while Loop.md",
-    "CPLT/Loops In C(III)- For Loop.md",
-    "CPLT/Loops In C(I)- While Loop.md",
-    "CPLT/Conditionals in C(III)- ternary operator.md",
-    "CPLT/Conditionals in C(II)- switch statements.md",
-    "CPLT/Conditionals in C(I)- if statements.md",
-    "CPLT/Taking Input from CLI in a C program.md",
-    "CPLT/Exploring printf.md",
-    "CPLT/Hello World Program in C.md",
-    "CPLT/Structure of a C Program.md",
-    "CPLT/Introduction to C.md",
-    "CPLT/Functions in C.md",
-    "CPLT/Types in C.md",
+    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md",
+    "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+    "CPLT-Number System/Introduction to Number Systems.md",
+    "CPLT-Number System",
+    "Pasted image 20230809211930.png",
     "Pasted image 20230806203722.png",
+    "CPLT-C/Structure of a C Program.md",
+    "CPLT-C/Taking Input from CLI in a C program.md",
+    "CPLT-C/Types in C.md",
+    "CPLT-C/Loops In C(III)- For Loop.md",
+    "CPLT-C/Conditionals in C(III)- ternary operator.md",
+    "CPLT-C/Loops In C(II)- Do-while Loop.md",
+    "CPLT-C/Loops In C(I)- While Loop.md",
+    "CPLT-C/Operators in C.md",
+    "CPLT-C/Conditionals in C(II)- switch statements.md",
+    "CPLT-C/Conditionals in C(I)- if statements.md",
+    "CPLT-C/Exploring printf.md",
+    "CPLT-C/Hello World Program in C.md",
+    "CPLT-C/Introduction to C.md",
+    "CPLT-C/Functions in C.md",
     "Engg. Mathematics/Vertical Asymptotes.md",
     "Engg. Mathematics/Parallel Asymptotes.md",
     "Engg. Mathematics/Horizontal Asymptotes.md",
@@ -170,17 +176,13 @@
     "App. Physics/Compton effect.md",
     "Untitled.md",
     "FAIDA/Introduction.md",
-    "CPLT",
+    "CPLT-C",
     "FAIDA",
     "App. Physics",
     "README.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Engg. Mathematics",
-    "Mathematics notes/Matrices.md",
-    "Mathematics notes/Determinants.md",
-    "Daily Notes/2023-07-31.md",
-    "Daily Notes/2023-07-21.md",
     "Daily Notes",
     "Mathematics notes",
     "wlkwfw.canvas"
