@@ -27,7 +27,7 @@ But both of those approaches require a lot of duplication of code which works fo
 
 So the Computer scientist came up with an ingenious solution to this. 
 
-They made a keen observation, you see, they realized that, since you need to store say n integers, you already know that every integer takes 4 bytes right, so just create a memory region of size 32 * n bits. 
+They made a keen observation, you see, they realized that, since you need to store say n integers, you already know that every integer takes 4 bytes right, so just create a memory region of size 32 * n bits.  ^be9051
 
 Then assign the first 4 bytes to first integer, the next 4 bytes to second, so on to the last 4 bytes to the nth integer.
 
@@ -107,5 +107,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-If you have trouble understating what is happening, try a hand unrolling of the loop and it should be crystal clear how this works.
 <!--because why not?-->
+If you have trouble understating what is happening, try a hand unrolling of the loop and it should be crystal clear how this works.
+
+[[Exploring arrays]]

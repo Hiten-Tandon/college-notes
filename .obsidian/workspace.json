@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+                "file": "CPLT-C/Exploring arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+                "file": "CPLT-C/Exploring arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+                "file": "CPLT-C/Exploring arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md"
+                "file": "CPLT-C/Exploring arrays.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "399d62ad4f1dd5c9",
   "lastOpenFiles": [
-    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md",
+    "Pasted image 20230811214105.png",
     "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+    "CPLT-C/Exploring arrays.md",
+    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md",
     "CPLT-Number System/Introduction to Number Systems.md",
     "CPLT-Number System",
     "Pasted image 20230809211930.png",
@@ -175,11 +177,9 @@
     "Engg. Mathematics/Asymptotes.md",
     "App. Physics/Compton effect.md",
     "Untitled.md",
-    "FAIDA/Introduction.md",
     "CPLT-C",
     "FAIDA",
     "App. Physics",
-    "README.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Engg. Mathematics",
