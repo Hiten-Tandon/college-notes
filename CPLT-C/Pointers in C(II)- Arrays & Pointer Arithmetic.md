@@ -110,4 +110,4 @@ int main(int argc, char **argv) {
 <!--because why not?-->
 If you have trouble understating what is happening, try a hand unrolling of the loop and it should be crystal clear how this works.
 
-[[Exploring arrays]]
+[[Exploring Arrays]]

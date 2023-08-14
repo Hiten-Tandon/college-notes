@@ -1,31 +1,118 @@
-Surely you didn't think that was all there was to arrays, right? Let's take a deeper dive into arrays.
+We have already studied the basics of arrays in C. We already know that 
+1. An array is a constant sized block of memory, used for storing multiple instances of same data type
+2. An array practically is a pointer pointing to the first element of the array.
+3. To access an array element you add the number of indices you wanna move from the first index and then access the value at that address.
 
-Technically this is an extension of the pointers topic but, arrays are present even in the languages which don't provide you access to raw pointers like Java, C#, etc. So it's important to learn about them as an individual entity separate from pointers.
+Now let's look at some of the properties of arrays in C which you have to keep in mind while programming in C.
 
-Let's start by defining arrays.
+1. If you try to index your array outside of your array bounds, you're not guaranteed an error.
 
-Arrays are constant size continuous blocks of memory, used for storing multiple instances of a single data type.
+Take a look at the following code:
+```C
+#include <stdio.h>
+int main(int argc, char **argv) {
+	int my_arr[10] = { [0 ... 9] = 0 };
+	my_arr[11] = 12;
 
-Let's break it down so it's less confusing.
+	printf("%d\n", my_arr[11]);
+	return 0;
+}
+```
+Output:
+```
+12
+```
 
-Let's take a look at the first property of arrays, constant size.
+This code, though is erroneous produces neither compile time nor a guaranteed runtime error. This is because, C doesn't do bound checks on arrays, which means that if you index an array out of bounds you can tamper raw memory.
 
-An array has a size defined by the user at the compile time or at the runtime, depending on the language you're using, but whichever it is, it can not be changed once the array has been declared.
+This is dangerous however and should be avoided because it may overwrite the memory being used by some other process at the moment or, it may end up causing a memory leak, which let's hackers have access to your code by back doors.
 
-That is to say, you created an array of length 10, now you can't increase it's length to 11.
+This is why, you should always bound check your use of arrays in functions, and you should always ask for length of array as a parameter in your function.
 
-You can create a new array of length 11, and copy the contents of the first array over to the new array and have an extra space left, however you can not increase the size of the pre-existing array, if you do, it's no longer considered the same array.
+2. Arrays are almost always passed to functions as pointers, not arrays.
 
-Now, those of you coming from Python and JS/TS will probably be like:
-> Huh, interesting you say that because in Python or JS/TS, we can actually increase the size of the array at will, are you sure it's not a skill issue on C devs' side?
+You can't pass an array to a function, if you do you must first coerce it to a pointer, because arrays have their size as a part of their type, so either you limit yourself to arrays of a specific size, or you take pointers.
 
-Well, Python and JS/TS offer Lists, not arrays. Python equivalent to arrays is `numpy's ndarray` of dimension 1, and in JS/TS the closest thing to Arrays is `Buffer` from `node:Buffer`.
+Let's see this with an example.
 
-However Lists are a worry for later, when we get to DSA, for now let's get back to arrays and discuss the second point in the definition i.e. continuous block of memory.
+Let's say, you have to write a function which reverses a given array in place, following is how you'd write it.
 
-As we discussed in the [[Pointers in C(II)- Arrays & Pointer Arithmetic#^be9051|pointers portion of array]] arrays are continuous chunks of memory, i.e. An array will span from base address to base address + length of array \* size of type of array.
+```C
+#include <stdio.h>
 
-This really doesn't need much more explanation than this so, moving onto third point multiple instances of single type.
+void rev_arr(int *arr, int arr_len);
 
-This is really important part of the definition, because, this statement can be very easily misunderstood and is misunderstood.
+int main(int argc, char **argv) {
+	int my_arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	rev_arr(my_arr, 10);
 
+	for(int i = 0; i < 10; ++i) {
+		printf("%d, ", my_arr[i]);
+	}
+
+	printf("\n");
+
+	int my_arr1[20];
+	for(int i = 0; i < 20; ++i) {
+		my_arr1[i] = i + 1;
+	}
+	rev_arr(my_arr1, 20);
+
+	for(int i = 0; i < 20; ++i) {
+		printf("%d, ", my_arr1[i]);
+	}
+
+	return 0;
+}
+
+void rev_arr(int *arr, int arr_len) {
+	for(int i = 0; i < arr_len / 2; ++i) {
+		int temp = arr[i];
+		arr[i] = arr[arr_len - i - 1];
+		arr[arr_len - i - 1] = temp;
+	}
+}
+```
+
+Now, note that you can technically you can write the following too, but it's effectively the same thing.
+
+```C
+#include <stdio.h>
+
+void rev_arr(int arr[], int arr_len);
+
+int main(int argc, char **argv) {
+	int my_arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	rev_arr(my_arr, 10);
+
+	for(int i = 0; i < 10; ++i) {
+		printf("%d, ", my_arr[i]);
+	}
+
+	printf("\n");
+
+	int my_arr1[20];
+	for(int i = 0; i < 20; ++i) {
+		my_arr1[i] = i + 1;
+	}
+	rev_arr(my_arr1, 20);
+
+	for(int i = 0; i < 20; ++i) {
+		printf("%d, ", my_arr1[i]);
+	}
+
+	return 0;
+}
+
+void rev_arr(int arr[], int arr_len) {
+	for(int i = 0; i < arr_len / 2; ++i) {
+		int temp = arr[i];
+		arr[i] = arr[arr_len - i - 1];
+		arr[arr_len - i - 1] = temp;
+	}
+}
+```
+
+The type of `arr` is still `int *` this code is just syntax sugar, to give the . So, do what you will, doesn't really matter.
+
+3. 
