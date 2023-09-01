@@ -115,4 +115,10 @@ void rev_arr(int arr[], int arr_len) {
 
 The type of `arr` is still `int *` this code is just syntax sugar, to give the . So, do what you will, doesn't really matter.
 
-3. 
+3. Since arrays are a data type, you can create arrays of arrays in C, or arrays of arrays of arrays, or arrays of arrays of arrays of arrays... you get the point.
+
+Once you think about it, it really seems obvious, but before you do so, it really doesn't.
+
+>Arrays of Arrays are often called 2D arrays or Matrices. 
+ To create a matrix, you can simply use the syntax,
+ `type variable_name[row_count][col_count];`
