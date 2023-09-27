@@ -119,6 +119,12 @@ The type of `arr` is still `int *` this code is just syntax sugar, to give the .
 
 Once you think about it, it really seems obvious, but before you do so, it really doesn't.
 
->Arrays of Arrays are often called 2D arrays or Matrices. 
- To create a matrix, you can simply use the syntax,
- `type variable_name[row_count][col_count];`
+Arrays of Arrays are often called 2D arrays or Matrices. 
+To create a matrix, you can simply use the syntax,
+`type variable_name[row_count][col_count];` 
+ 
+More generally, arrays of arrays of arrays... n times are called n-D arrays, which can be declared by the syntax `type variable_name[dim_1_size][dim_2_size]...[dim_n_size]`;
+
+Higher order arrays are often useful in scientific simulations, and ML model training etc. 
+
+[[Project Based Learning P1|Project Based Learning P1]]
