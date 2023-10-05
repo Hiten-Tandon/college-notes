@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAIDA/ML.md",
+                "file": "FAIDA/Supervised Learning.md",
                 "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "bda523b80efac48d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20230811214105.png"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAIDA/ML.md",
+                "file": "FAIDA/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAIDA/ML.md",
+                "file": "FAIDA/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAIDA/ML.md"
+                "file": "FAIDA/Supervised Learning.md"
               }
             }
           }
@@ -158,16 +148,16 @@
   },
   "active": "399d62ad4f1dd5c9",
   "lastOpenFiles": [
+    "Pasted image 20230811214105.png",
+    "FAIDA/Supervised Learning.md",
+    "FAIDA/ML.md",
     "FAIDA/Introduction.md",
     "FAIDA/Reinforcement Learning.md",
-    "FAIDA/ML.md",
     "FAIDA/Semisupervised Learning.md",
     "FAIDA/Unsupervised Learning.md",
-    "FAIDA/Supervised Learning.md",
     "FAIDA/AI.md",
     "Blank diagram.jpeg",
     "README.md",
-    "Pasted image 20230811214105.png",
     "CPLT-C/Exploring arrays.md",
     "Pasted image 20230809211930.png",
     "Pasted image 20230806203722.png",
@@ -187,7 +177,6 @@
     "CPLT-C/Loops In C(III)- For Loop.md",
     "CPLT-C/Exploring printf.md",
     "CPLT-C/Conditionals in C(II)- switch statements.md",
-    "CPLT-C/Conditionals in C(I)- if statements.md",
     "CPLT-Number System",
     "CPLT-C",
     "FAIDA",
