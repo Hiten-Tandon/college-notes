@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPLT-C/Exploring arrays.md",
-                "mode": "source",
+                "file": "FAIDA/ML.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -23,16 +23,13 @@
             "id": "bda523b80efac48d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CPLT-C/Project Based Learning P1.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20230811214105.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPLT-C/Project Based Learning P1.md",
+                "file": "FAIDA/ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPLT-C/Project Based Learning P1.md",
+                "file": "FAIDA/ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPLT-C/Project Based Learning P1.md"
+                "file": "FAIDA/ML.md"
               }
             }
           }
@@ -159,13 +156,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bda523b80efac48d",
+  "active": "399d62ad4f1dd5c9",
   "lastOpenFiles": [
+    "FAIDA/Introduction.md",
+    "FAIDA/Reinforcement Learning.md",
+    "FAIDA/ML.md",
+    "FAIDA/Semisupervised Learning.md",
+    "FAIDA/Unsupervised Learning.md",
+    "FAIDA/Supervised Learning.md",
+    "FAIDA/AI.md",
+    "Blank diagram.jpeg",
+    "README.md",
+    "Pasted image 20230811214105.png",
     "CPLT-C/Exploring arrays.md",
+    "Pasted image 20230809211930.png",
+    "Pasted image 20230806203722.png",
+    "Engg. Mathematics/Parallel Asymptotes.md",
+    "Engg. Mathematics/Oblique Asymptotes.md",
+    "Engg. Mathematics/Horizontal Asymptotes.md",
+    "Engg. Mathematics/Asymptotes.md",
     "CPLT-C/Project Based Learning P1.md",
     "CPLT-C/Structure of a C Program.md",
     "Untitled.md",
-    "Engg. Mathematics/Asymptotes.md",
     "CPLT-C/Conditionals in C(III)- ternary operator.md",
     "CPLT-C/C-Strings.md",
     "CPLT-C/Functions in C.md",
@@ -176,21 +188,7 @@
     "CPLT-C/Exploring printf.md",
     "CPLT-C/Conditionals in C(II)- switch statements.md",
     "CPLT-C/Conditionals in C(I)- if statements.md",
-    "CPLT-C/Taking Input from CLI in a C program.md",
-    "CPLT-C/Hello World Program in C.md",
-    "CPLT-C/Introduction to C.md",
-    "Pasted image 20230811214105.png",
-    "CPLT-Number System/Introduction to Number Systems.md",
     "CPLT-Number System",
-    "Pasted image 20230809211930.png",
-    "Pasted image 20230806203722.png",
-    "CPLT-C/Types in C.md",
-    "CPLT-C/Loops In C(II)- Do-while Loop.md",
-    "CPLT-C/Loops In C(I)- While Loop.md",
-    "CPLT-C/Operators in C.md",
-    "Engg. Mathematics/Vertical Asymptotes.md",
-    "Engg. Mathematics/Parallel Asymptotes.md",
-    "Engg. Mathematics/Horizontal Asymptotes.md",
     "CPLT-C",
     "FAIDA",
     "App. Physics",

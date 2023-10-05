@@ -1,11 +1,11 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "interfaceFontFamily": "Cascadia Code,VictorMono Nerd Font Propo",
+  "interfaceFontFamily": "VictorMono Nerd Font Propo",
   "textFontFamily": "VictorMono Nerd Font Propo,VictorMono Nerd Font",
   "monospaceFontFamily": "VictorMono Nerd Font Mono",
   "nativeMenus": false,
   "translucency": false,
   "enabledCssSnippets": [],
-  "baseFontSize": 22
+  "baseFontSize": 18
 }

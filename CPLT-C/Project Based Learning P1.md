@@ -7,8 +7,13 @@ You have to create a telephone diary application. For each contact in the applic
 5. The person's address
 
 While designing this application you'll learn about
-1. Structs
-2. Enums
-3. Heap allocations(malloc, calloc and realloc)
-4. Sorting(How to write your own sorting algorithm and how to use qsort)
-5. Searching(Linear and Binary)
+1. C-Strings
+2. Structs
+3. Enums
+4. Heap allocations
+5. Sorting(How to write your own sorting algorithm and how to use qsort)
+6. Searching(Linear and Binary)
+7. File IO (fio)
+8. BSTs
+9. Tries
+10. Serialization and De-serialization
