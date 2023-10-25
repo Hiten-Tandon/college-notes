@@ -58,7 +58,7 @@ Not to mention, with user declared types like structs, we don't set the memory a
 So, C decided to make various pointer types instead of just one which Assembly has. Basically, instead of just an address on the ram, you also store what the type of the variable / size of the variable is, this way you know already how much memory is of use when you're using some variable. 
 
 > # **<font color = 'sky blue'>ⓘ IMPORTANT</font>**
-> In C, you CAN duplicate Assembly's behavior by using something called a void pointer. Not the keyword here is can, not should. You should only use void pointer if you are a C veteran and you know what you're doing, because, it just makes your programs orders of magnitude harder to reason with, if you don't know the hardware details.
+> In C, you CAN duplicate Assembly's behavior by using something called a void pointer. Note the keyword here is can, not should. You should only use void pointer if you are a C veteran and you know what you're doing, because, it just makes your programs orders of magnitude harder to reason with, if you don't know the hardware details.
 
 The syntax for declaring a pointer to a memory which stores variable of type T is
 
