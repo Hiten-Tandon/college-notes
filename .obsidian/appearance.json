@@ -1,9 +1,9 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "interfaceFontFamily": "VictorMono Nerd Font Propo",
-  "textFontFamily": "VictorMono Nerd Font Propo,VictorMono Nerd Font",
-  "monospaceFontFamily": "VictorMono Nerd Font Mono",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
   "nativeMenus": false,
   "translucency": false,
   "enabledCssSnippets": [],

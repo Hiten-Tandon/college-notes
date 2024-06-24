@@ -8,18 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "399d62ad4f1dd5c9",
+            "id": "efa0edc80b42247a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPLT-C/C-Strings.md",
-                "mode": "source",
+                "file": "Engg. Mathematics/Asymptotes.md",
+                "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b4298719bbe53da2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPLT-C/C-Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPLT-C/C-Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CPLT-C/C-Strings.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,36 +151,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "399d62ad4f1dd5c9",
+  "active": "b4298719bbe53da2",
   "lastOpenFiles": [
-    "CPLT-C/Types in C.md",
-    "CPLT-C/C-Strings.md",
+    "CPLT-C/Functions in C.md",
     "CPLT-C/Conditionals in C(I)- if statements.md",
-    "CPLT-C/Exploring arrays.md",
-    "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
-    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md",
-    "CPLT-C/Project Based Learning P1.md",
-    "CPLT-C/Loops In C(III)- For Loop.md",
-    "EVS/pollution.md",
+    "Engg. Mathematics/Beta Gamma Relation.md",
+    "Engg. Mathematics/Vertical Asymptotes.md",
+    "Engg. Mathematics/Parallel Asymptotes.md",
+    "Engg. Mathematics/Oblique Asymptotes.md",
+    "Engg. Mathematics/Horizontal Asymptotes.md",
+    "Engg. Mathematics/Asymptotes.md",
     "CPLT-C/Taking Input from CLI in a C program.md",
     "CPLT-C/Exploring printf.md",
     "CPLT-C/Hello World Program in C.md",
     "CPLT-C/Structure of a C Program.md",
     "CPLT-C/Introduction to C.md",
-    "CPLT-C/Functions in C.md",
-    "Engg. Mathematics/Beta Gamma Relation.md",
+    "CPLT-C/C-Strings.md",
+    "CPLT-C/Project Based Learning P1.md",
+    "CPLT-C/Exploring arrays.md",
+    "CPLT-C/Pointers in C(II)- Arrays & Pointer Arithmetic.md",
+    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md",
+    "CPLT-C/my.html",
+    "CPLT-C/Pointers in C(I)- Introduction to Pointers.html",
+    "CPLT-C/Pointers in C(I)- Introduction to Pointers.md~",
+    "CPLT-C/Types in C.md",
+    "CPLT-C/Loops In C(III)- For Loop.md",
+    "EVS/pollution.md",
     "FAIDA/Unsupervised Learning.md",
     "FAIDA/ML.md",
     "FAIDA/Supervised Learning.md",
     "FAIDA/Introduction.md",
     "FAIDA/Reinforcement Learning.md",
-    "FAIDA/DS.md",
-    "FAIDA/DL.md",
-    "FAIDA/AI.md",
     "Pasted image 20230811214105.png",
-    "FAIDA/Semisupervised Learning.md",
     "Blank diagram.jpeg",
-    "README.md",
     "Pasted image 20230809211930.png",
     "Pasted image 20230806203722.png",
     "CPLT-Number System",
